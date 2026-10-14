@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part 2: Introduction to JavaScript - Azida Kunanbayeva</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 750px;
+      margin: 70px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #1e293b;
+    }
+    h1 { color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 12px; }
+    .student-badge { background: #e0f2fe; color: #0369a1; padding: 6px 12px; border-radius: 6px; font-weight: 600; display: inline-block; margin-bottom: 20px; }
+    .btn-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 24px 0; }
+    button {
+      background: #2563eb;
+      color: #fff;
+      border: none;
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.2s ease;
+      text-align: left;
+    }
+    button:hover { background: #1d4ed8; }
+    .instruction-box {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      padding: 16px;
+      border-radius: 8px;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="student-badge">Student: Azida Kunanbayeva | Group: MT-2501</div>
+  <h1>JavaScript Exercises (Tasks 6–12)</h1>
+  
+  <p>Click the buttons below to trigger tasks with interactive dialogs (<code>prompt</code>/<code>alert</code>) and open <strong>DevTools (F12 / Cmd + Option + I &rarr; Console)</strong> to review full logs.</p>
+
+  <div class="btn-grid">
+    <button onclick="runTask6()">▶ Task 6: Variables & Types</button>
+    <button onclick="runTask7()">▶ Task 7: Prompt & Greeting</button>
+    <button onclick="runTask8()">▶ Task 8: Sum & Arithmetic</button>
+    <button onclick="runTask9()">▶ Task 9: String Operations</button>
+    <button onclick="runTask10()">▶ Task 10: Assignment Operators</button>
+    <button onclick="runTask11()">▶ Task 11: Dog Age Formula</button>
+    <button onclick="runTask12()">▶ Task 12: Functions</button>
+  </div>
+
+  <div class="instruction-box">
+    <strong>Console Output Note:</strong> Non-prompt tasks (6, 9, 10, 11, 12) execute automatically on page load so you can inspect the complete output in the console right away.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
